@@ -1,0 +1,147 @@
+body {
+	background-color: white;
+}
+
+#logo {
+	height: 60px;
+	margin-bottom: 20px;
+	padding-left: 5px;
+}
+
+.navbar {
+	color: #4527A0;
+	background-color: #FEDCD2;
+	border: none;
+	font-family: Raleway;
+	list-style: none;
+	font-size: 18px;
+	float: left; 
+    padding-top: 15px;
+    padding-bottom: 8px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #F9BE02;
+}
+
+#fxedNav {
+	background-color: #9CCC65;
+}
+
+#guarantee {
+	font-size: 15px;
+	margin-right: 2%;
+	color: white;
+}
+
+#regNav {
+	margin-top: .7%;
+	margin-bottom: 0%;
+}
+
+ul {
+	display: inline-block;
+}
+
+li {
+	float: left;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-right: 25px;
+}
+
+li:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: black;
+}
+
+.page-header {
+	background-color: white;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #F9BE02;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+h1 {
+	padding: 15px;
+	text-align: center;
+	font-family: Dancing Script;
+	border: none;
+	font-size: 70px;
+	color: #689138;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 5%;
+}
+
+h2 {
+	font-family: Francois One;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	font-size: 45px;
+}
+
+.lips {
+	font-style: italic;
+	color: #B0120A;
+}
+
+.jumbotron {
+background-image: url('../../mainimg.jpg');
+height: 800px;
+width: 100%;
+background-size: cover;
+margin-bottom: 0px;
+}
+
+#shopBtn {
+	background-color: white;
+	color: black;
+	border: none;
+}
+
+#jumboContent {
+	margin-left: 80px;
+	margin-top: 60px;
+}
+
+footer {
+	text-align: center;
+	width: 100%;
+	clear: both;
+	background-color: #FEDCD2;
+	margin-bottom: auto;
+	margin-top: 0px;
+	font-size: 26px;
+	font-family: Montez;
+}
+
+.heart {
+	color: #B0120A;
+}
+
+#lipAndBody {
+	font-family: arial;
+	font-size: 17px;
+	color: black;
+	padding-top: 10px;
+}
+
+#pinterest {
+	height: 33px;
+}
+
+#insta {
+	height: 30px;
+}
+
+#copyright {
+	font-size: 18px;
+	font-family: Sacramento;
+	padding-bottom: .5%;
+}
