@@ -51,11 +51,12 @@ h1 {
     padding-top: 15px;
     padding-bottom: 8px;
     width: 100%;
-    border-bottom: 1px solid #F9BE02;
+    /*border-bottom: 1px solid #F9BE02;*/
 }
 
 #fxedNav {
 	background-color: #9CCC65;
+	border-bottom: 1px solid #F9BE02;
 }
 
 #guarantee {
@@ -177,9 +178,10 @@ a:visited {
 h3 {
 	font-family: Montez;
 	font-size: 50px;
-	color: #512D8A;
 	text-align: center;
-	/*background-color: #A3E9A4*/;
+	color: #689138;
+	background-color: #CCDFCB;
+	border: 1px solid #F9BE02; 
 	padding: 1%;
 	margin-top: 0%;
 }
