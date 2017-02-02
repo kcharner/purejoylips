@@ -99,8 +99,7 @@ h1 {
 	width: 100%;
 	text-align: center;
 	margin-top: 28%;
-	/*color: white;*/
-	color: #E9CCB1;
+	color: white;
 	font-family: Dancing Script;
 }
 
@@ -165,12 +164,16 @@ a:visited {
 	margin-top: 5px;
 }
 
+.btnShop {
+	margin-left: 40%;
+}
+
 h3 {
 	font-family: Montez;
 	font-size: 40px;
 	color: white;
 	text-align: center;
-	background-color: #C5E1A5;
+	background-color: #A3E9A4;
 	padding: 1%;
 	margin-top: 0%;
 }
