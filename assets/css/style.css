@@ -27,6 +27,12 @@ body {
 	background-color: #9CCC65;
 }
 
+#shipping {
+	color: white;
+	font-size: 15px;
+	margin-left: 2%;
+}
+
 #guarantee {
 	font-size: 15px;
 	margin-right: 2%;

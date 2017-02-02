@@ -176,10 +176,10 @@ a:visited {
 
 h3 {
 	font-family: Montez;
-	font-size: 40px;
-	color: white;
+	font-size: 50px;
+	color: #512D8A;
 	text-align: center;
-	background-color: #A3E9A4;
+	/*background-color: #A3E9A4*/;
 	padding: 1%;
 	margin-top: 0%;
 }
