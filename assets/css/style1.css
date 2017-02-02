@@ -51,7 +51,7 @@ h1 {
     padding-top: 15px;
     padding-bottom: 8px;
     width: 100%;
-    /*border-bottom: 1px solid #F9BE02;*/
+    border-bottom: 1px solid #F9BE02;
 }
 
 #fxedNav {
@@ -186,6 +186,10 @@ h3 {
 	margin-top: 0%;
 }
 
+#topBar {
+	border-top: none;
+}
+
 #image {
 	margin-top: 80px;
 	margin-left: 0%;
@@ -291,6 +295,14 @@ footer {
 .row {
 	margin-bottom: 10px;
 }
-#promoproductS{
-	text-align: center;
+
+#wholesale {
+	font-size: 20px;
 }
+
+
+
+
+
+
+
