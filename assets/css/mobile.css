@@ -1,0 +1,123 @@
+/*MOBILE HORIZONTAL*/
+@media only screen and (max-width:750px) {
+	
+	#shipping {
+		font-size: 14px;
+	}
+
+	.navbar {
+		border-bottom: none;
+		background-color: white;
+	}
+
+	#regNav {
+		width: 20%;
+		float: right;
+		min-height: 10px;
+		padding: 0%;
+	}	
+
+	.navbar-toggle {
+		margin-top: 20%;
+		margin-right: 20%;
+	}
+
+	a {
+		font-size: 25px;
+	}
+
+	h1 {
+		width: 80%;
+		padding-top: 0%;
+		margin-top: 2%;
+		margin-bottom: 0%;
+		padding-bottom: 1%;
+		font-size: 55px;
+		border-bottom: none;
+	}
+
+	.jumbotron {
+		background-image: url("../../test.png"); 
+		height: 600px;
+	}
+
+	#jumboContent {
+		margin-left: 1%;
+	}
+
+	#callToAction {
+		font-size: 18px;
+	}
+
+	h2 {
+		font-size: 32px;
+		padding-bottom: 1%;
+	}
+}
+
+/*MOBILE VERTICAL*/
+@media only screen and (max-width:500px) {
+
+	.navbar-toggle {
+		margin-top: 60%;
+	}
+
+	h1 {
+		margin: 0%
+		padding: 0%;
+		padding-top: 5%;
+		font-size: 50px;
+	}
+
+	.lips {
+		display: none;
+	}
+
+	h2 {
+		margin-bottom: 9%;
+		text-align: center;
+	}
+
+	#shopBtn {
+		width: 30%;
+		margin-left: 35%;
+	}
+
+	.jumbotron {
+		width: 100%;
+		background-color: #FEDCD2;
+		height: 380px;
+		margin-top: 0%;
+	}
+
+	#jumboContent {
+		width: 60%;
+		margin-top: 0%;
+		margin-left: 0%;
+		padding-left: 0%;
+	}
+
+	#callToAction {
+		font-size: 11.5px;
+		/*font-weight: bold;*/
+		color: black;
+	}
+
+	#shopBtn {
+		width: 50%;
+		margin-left: 0%;
+	}
+		
+	footer {
+		border-top: 1px solid #F9BE02;
+	}
+	
+
+}
+
+
+
+
+
+
+

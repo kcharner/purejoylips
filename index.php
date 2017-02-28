@@ -1,1 +1,1 @@
-<?php include_once("purejoylips.html"); ?>
+<?php include_once("index.html"); ?>
