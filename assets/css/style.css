@@ -2,29 +2,36 @@ body {
 	background-color: white;
 }
 
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
 #logo {
 	height: 60px;
-	margin-bottom: 20px;
+	margin-bottom: 1%;
 	padding-left: 5px;
 }
 
 .navbar {
 	color: #4527A0;
-	background-color: #FEDCD2;
+	background-color: #fafbed;
 	border: none;
 	font-family: Raleway;
 	list-style: none;
 	font-size: 18px;
 	float: left; 
     padding-top: 15px;
-    padding-bottom: 8px;
     text-align: center;
     width: 100%;
-    border-bottom: 1px solid #F9BE02;
 }
 
 #fxedNav {
 	background-color: #9CCC65;
+	border-bottom: 1px solid #F9BE02;
 }
 
 #shipping {
@@ -42,10 +49,12 @@ body {
 #regNav {
 	margin-top: .7%;
 	margin-bottom: 0%;
+	padding-bottom: 0%;
 }
 
 ul {
 	display: inline-block;
+	margin-bottom: 0%;
 }
 
 li {
@@ -64,7 +73,7 @@ a:visited {
 }
 
 .page-header {
-	background-color: white;
+	background-color: #FEDCD2;
 	margin-bottom: 0px;
 	border-bottom: 1px solid #F9BE02;
 	padding-top: 10px;
@@ -72,7 +81,8 @@ a:visited {
 }
 
 h1 {
-	padding: 15px;
+	padding: .5%;
+	padding-top: 2.5%;
 	text-align: center;
 	font-family: Dancing Script;
 	border: none;
@@ -80,16 +90,18 @@ h1 {
 	color: #689138;
 	font-weight: bold;
 	font-style: italic;
-	margin-top: 5%;
+	margin-top: 2%;
 }
 
 h2 {
 	font-family: Francois One;
 	font-weight: bold;
-	color: black;
+	color: white;
 	padding-bottom: 20px;
-	margin-top: 0px;
+	margin-top: 0%;
+	padding-top: 0%;
 	font-size: 45px;
+	text-align: center;
 }
 
 .lips {
@@ -98,22 +110,39 @@ h2 {
 }
 
 .jumbotron {
-background-image: url('../images/mainimg.jpg');
-height: 800px;
-width: 100%;
-background-size: cover;
-margin-bottom: 0px;
+	/*background-image: url('../images/naturalLipBalm.png');*/
+	background-image: url('../images/desktopA.png');
+	height: 800px;
+	width: 100%;
+	background-size: cover;
+	margin-bottom: 0px;
 }
 
 #shopBtn {
-	background-color: white;
+	background-color: #9CCC65;
 	color: black;
 	border: none;
 }
 
 #jumboContent {
-	margin-left: 80px;
-	margin-top: 60px;
+	margin-left: 2%;
+	margin-top: 1%;
+	color: white;
+}
+
+#callToAction {
+	background-color: #DCEDC8;
+	text-align: center;
+	padding: 1%;
+	color: black;
+	border: 2px solid #F9BE02;
+	font-family: Raleway;
+	margin: 0.625em 0;
+}
+
+#callToAction:first-letter {
+	font-size: 3em;
+	line-height: 1em;
 }
 
 footer {
@@ -152,18 +181,76 @@ footer {
 	padding-bottom: .5%;
 }
 
+#custom {
+	color: black;
+}
 
+/*start modal css*/
 
+#contactBtn {
+	background-color: #FEDCD2;
+	border: none;
+	text-decoration: underline;
+}
 
+.modal-header {
+	background-image: url("../images/floralBorder.jpeg");
+}
 
+#modalHeader {
+	font-size: 45px;
+	background-color: #DCEDC8;
+	padding: 1%;
+	width: 40%;
+	margin-left: 30%;
+	border-radius: 50%;
+	border: 1px solid #F9BE02;
+}
 
+.labels {
+	float: left;
+	font-family: Raleway;
+	font-size: 20px;
+}
 
+#submitBtn {
+	background-color: #FEDCD2;
+	border: none;
+	font-size: 20px;
+	color: black;  
+}
 
+#modalCloseBtn {
+	background-color: #DCEDC8;
+	font-size: 20px;
+}
 
+::-webkit-input-placeholder {
+   	font-size: 20px!important;
+}
 
+input {
+   	font-size: 20px!important;
+}
 
+textarea {
+	font-size: 20px!important;
+}
 
+#customOrders {
+	font-size: 22px;
+	color: black;
+	font-family: Raleway;
+	/*font-size: 1em;
+	line-height: 1.25em;*/
+	margin: 0.625em 0;
+	text-align: justify;
+}
 
+#customOrders:first-letter {
+	font-size: 3em;
+	line-height: 1em;
+}
 
 
 

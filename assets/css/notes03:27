@@ -1,0 +1,40 @@
+MongoDB
+
+library collection:
+	id:
+		type: integer
+		unique: true
+	name:
+		type: string
+	books:
+		type: array
+		ref: books
+
+books collection:
+	id:
+	 	type: integer
+		unique: true
+	title:  
+		type: string
+	author:
+		type: string
+
+MySQL
+
+library table:
+	id: int
+	name: string
+	books: string
+	FOREIGN KEY (books) REFERENCES books(booksID)
+
+books table:
+	id:int
+	author: string
+	title: string
+	
+library books table 
+	book id, library id
+	FOREIGN KEY (book id) REFERENCES books(booksID)
+	FOREIGN KEY (library id REFERENCES books(libraryID)
+
+

@@ -9,10 +9,18 @@
 		text-align: center;
 	}
 
+	#regNav {
+		margin-top: 4%;
+	}
+
 	h1 {
 		font-size: 70px;
 		padding: 0%;
-		margin-top: 5%;
+	}
+
+	#navlist {
+		margin-top: 3%;
+		font-size: 23px;
 	}
 	
 	#logo {
@@ -36,9 +44,50 @@
 	#jumbo3 {
 		height: 700px;
 	}
-
-
-
-
-
 }
+
+@media only screen and (max-width:800px) {
+	
+	#navlist {
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 0%;
+	}
+
+	#guarantee {
+		display: none;
+	}
+
+	#shipping {
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	#logoHeader {
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	#jumbo3 {
+		background-image: url("../images/woodhart.png")
+	}
+
+	#welcome {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

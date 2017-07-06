@@ -32,10 +32,6 @@ h1 {
 	font-family: Dancing Script;
 }
 
-#welcome {
-	margin-bottom: 3%;
-}
-
 #logo {
 	height: 50px;
 	margin-bottom: 20px;
@@ -76,6 +72,10 @@ h1 {
 	margin-bottom: 0%;
 }
 
+#navlist {
+	font-size: 21px;
+}
+
 #jumbo1 {
 	background-image: url('../images/sunFlower.jpg');
 	height: 800px;
@@ -88,7 +88,7 @@ h1 {
 
 #jumbo2 {
 	background-image: url('../images/floral.jpg');
-	height: 800px;
+	min-height: 1200px;
 	width: 100%;
 	background-size: cover;
 	margin-bottom: 0px;
@@ -106,7 +106,7 @@ h1 {
 	width: 100%;
 	text-align: center;
 	margin-top: 28%;
-	color: white;
+	color: #fafbed;
 	font-family: Dancing Script;
 }
 
@@ -116,21 +116,40 @@ h1 {
 	font-size: 80px;
 }
 
+#b {
+	background-color: #fafbed;
+	padding-top: 2%;
+}
+
+#testingA {
+	margin: 0.625em 0;
+	text-align: justify;
+}
+
+#testingA:first-letter {
+	font-size: 3em;
+	line-height: 1em;
+}
+
+#testingB:first-letter {
+	font-size: 3em;
+	line-height: 1em;
+}
+
 #personalMsg {
-	margin-top: 15px;
-	margin-left: 15px;
-	margin-right: 15px;
-	font-family: Arial;
+	font-family: Raleway;
 	font-size: 18px;
+	background-color: #fafbed;
 }
 
 #signature {
 	font-family: Montez;
-	font-size: 25px;
+	font-size: 35px;
 }
 #navlist{
 	float: right;
 }
+
 ul {
 	display: inline-block;
 	margin-top: 10px;
@@ -180,14 +199,21 @@ h3 {
 	font-size: 50px;
 	text-align: center;
 	color: #689138;
-	background-color: #CCDFCB;
+	background-color: #feffef;
 	border: 1px solid #F9BE02; 
 	padding: 1%;
 	margin-top: 0%;
 }
 
-#topBar {
-	border-top: none;
+/*input {
+	width: 70%;
+	margin-left: 15%;
+}*/
+
+#bundleSum {
+	color: green;
+	font-size: 25px;
+	padding-top: 1%;
 }
 
 #image {
@@ -265,6 +291,8 @@ footer {
 	font-family: Dancing Script;
 	font-size: 70px;
 	color: #FDD12D;
+	margin-left: 15%;
+	margin-bottom: 3%;
 }
 
 #copyright {
@@ -287,10 +315,10 @@ footer {
 	margin-bottom: 10px;
  }
 
- form {
+ /*form {
  	width: 30%;
  	margin-left: 35%;
- }
+ }*/
 
 .row {
 	margin-bottom: 10px;
@@ -300,7 +328,168 @@ footer {
 	font-size: 20px;
 }
 
+#bundle {
+	margin-top: 1%;
+	padding-bottom: 1%;
+}
 
+#bundleCont {
+	margin-bottom: 2%;
+}
+
+#bundleDescri {
+	margin-top: 4%;
+	font-size: 19px;
+	min-height: 215px;
+}
+
+.carousel {
+	margin-top: 5%;
+}
+
+#customOrders {
+	font-size: 22px;
+	color: black;
+	font-family: Raleway;
+	/*font-size: 1em;
+	line-height: 1.25em;*/
+	margin: 0.625em 0;
+	text-align: justify;
+}
+
+#customOrders:first-letter {
+	font-size: 3em;
+	line-height: 1em;
+}
+
+.custom {
+	background-image: url("../images/roseField.jpg");
+	border: none;
+	min-height: 250px;
+	border-bottom: 1px solid #F9BE02;
+}
+
+#customBar {
+	font-size: 80px;
+	text-align: center;
+	font-family: Dancing Script;
+	color: #004438;
+	background-color: #dcedc8;
+	display: inline-block;
+	border: 2px solid #F9BE02;
+	padding: .5%;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 3.5%;
+	border-radius: 50%;
+}
+
+#specialFees {
+	font-weight: bold;
+}
+
+#wholesale {
+	text-align: center;
+	font-weight: bolder;
+	background-color: #dcedc8;
+	font-size: 21px;
+}
+
+.customContent {
+	margin-top: 4%;
+	/*background-color: #c1e6df;*/
+	padding: 2%;
+}
+
+.customTagline {
+	margin-top: 5%;
+	color: #c52966;
+}
+
+.customCont {
+	background-color: #fafbed;
+	width: 100%;
+	font-family: Raleway;
+	font-size: 20.5px;
+}
+
+
+
+
+
+
+
+
+
+#contactBtn {
+	background-color: #FEDCD2;
+	border: none;
+	text-decoration: underline;
+}
+
+.modal-header {
+	background-color: #DCEDC8;
+}
+
+#modalHeader {
+	font-size: 45px;
+}
+
+.labels {
+	float: left;
+	font-family: Raleway;
+	font-size: 20px;
+}
+
+#submitBtn {
+	background-color: #FEDCD2;
+	border: none;
+	font-size: 20px;
+	color: black;  
+}
+
+#modalCloseBtn {
+	background-color: #DCEDC8;
+	font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+   	font-size: 20px!important;
+}
+
+input {
+   	font-size: 20px!important;
+}
+
+textarea {
+	font-size: 20px!important;
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+#footerIcons {
+	margin: 0%;
+}
+
+.modal-header {
+	background-image: url("../images/floralBorder.jpeg");
+}
+
+#modalTitle{
+	font-size: 45px;
+	background-color: #DCEDC8;
+	padding: 1%;
+	width: 40%;
+	margin-left: 30%;
+	border-radius: 50%;
+	border: 1px solid #F9BE02;
+}
 
 
 

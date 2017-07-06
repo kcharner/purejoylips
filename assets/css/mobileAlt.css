@@ -5,14 +5,15 @@
 		height: 120px;
 	}
 
-	#shipping {
-		text-align: center;
-	}
-
 	h1 {
 		font-size: 70px;
 		padding: 0%;
 		margin-top: 5%;
+	}
+
+	#shipping {
+		font-size: 14px;
+		padding-bottom: 2%;
 	}
 	
 	#logo {
@@ -26,9 +27,18 @@
 		border: 1px solid black;
 	}
 
+	.list {
+		font-size: 22px;
+	}
+
+	#logoHeader {
+		width: 100%;
+		margin: 0%;
+	}
+
 	#welcome {
 		width: 70%;
-		margin-left: 30%;
+		margin-left: 15%;
 		text-align: center;
 		margin-top: 0%;
 	}
@@ -36,7 +46,88 @@
 	#jumbo3 {
 		height: 700px;
 	}
+	
+	.custom {
+		min-height: 150px;
+	}
 
+	#customBar {
+		width: 70%;
+		margin-left: 15%;
+		font-size: 60px;
+	}
 
-
+	.carousel {
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	.customContent {
+		font-size: 22px;
+	}
 }
+
+@media only screen and (max-width:500px) {
+
+	#regNav {
+		margin-top: 15%;
+	}
+
+	#logoHeader {
+		width: 100%;
+		margin: 0%;
+	}
+
+	h1 {
+		margin-left: 3%;
+	}
+	
+	#toggleBtn {
+		margin-right: 3%;
+		margin-top: 10%;
+	}
+
+	#jumbo3 {
+		min-height: 900px;
+	}
+
+	.custom {
+		min-height: 100px;
+	}
+
+	#customBar {
+		font-size: 40px;
+		margin-top: 4%;
+	}
+}
+
+@media only screen and (max-width:400px) {
+
+	.navbar-header {
+		height: 100px;
+	}
+
+	h1 {
+		font-size: 60px;
+	}
+
+	#welcome {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	#jumbo3 {
+		min-height: 1000px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

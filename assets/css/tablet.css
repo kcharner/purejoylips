@@ -1,7 +1,7 @@
 /*IPAD HORIZONTAL*/
 @media only screen and (max-width:1050px) {
 	#fxedNav {
-		min-height: 6%;
+		min-height: 3%;
 	}
 
 	#shipping {
@@ -16,16 +16,16 @@
 	
 	#regNav {
 		margin-top: 0%;
-		padding-top: 3%;
+		padding-top: 1%;
 	}
 
 	h1 {
-		margin-top: 7%;
+		margin-top: 4%;
 	}
 
 	.jumbotron {
 		width: 100%;
-		background-image: url("../images/tabletImgA.png"); 
+		background-image: url("../images/tabletA.png"); 
 	}
 
 	#jumboContent{
@@ -50,12 +50,15 @@
 	}
 
 	.jumbotron {
-		width: 100%;
-		background-image: url("../images/tabletImgB.png"); 
+		width: 100%; 
 	}
 
 	h1 {
-		padding-top: 5%;
+		padding-top: 2%;
+	}
+
+	#jumboContent {
+		margin-left: 8%;
 	}
 }
 
